@@ -122,6 +122,16 @@
   font-size: 0.7rem;
 }
 
+.cronologia {
+  background-image: url(../Media/cronologia-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.titulo {
+  margin-top: 0 !important;
+}
+
 .imagen-linea {
   width: 100px;
 }
@@ -129,7 +139,7 @@
 .linea-tiempo {
   position: relative;
   width: 500px;
-  margin: 50px auto;
+  margin: 0px auto;
   max-width: 95vw;
   height: 100%;
   font-family: Arial;
@@ -184,6 +194,8 @@
   padding: 10px;
   line-height: 22px;
   font-size: 14px;
+  display: flex;
+  justify-content: center;
 }
 
 .momento .descripcion::after {
@@ -425,11 +437,6 @@
   /* CRONOLOGIA */
   .nota {
     margin-top: 0;
-    font-size: 1.5rem;
-  }
-
-  .momento h3 {
-    font-size: 2rem;
   }
 
   /*LANZAMIENTOS*/

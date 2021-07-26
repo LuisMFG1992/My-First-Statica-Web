@@ -1,0 +1,36 @@
+
+.container__galeria {
+    border: 1px solid $color-amarillo;
+    font-size: 0.7rem;
+    margin-top: 10rem;
+    background: $color-verde-oscuro;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+
+    .container__encabezado {
+        background: $color-verde-transparente;
+        color: $color-amarillo;
+        height: 50px;
+        font-size: 1.5rem;
+        border-bottom: 3px solid $color-amarillo;
+    }
+    
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container__imagen {
+        transition: all 0.5s ease;    
+        cursor: pointer;
+    }
+    
+    .container__imagen:hover {
+        filter: brightness(50%);
+        transform: scale(0.8);
+    }
+
+}

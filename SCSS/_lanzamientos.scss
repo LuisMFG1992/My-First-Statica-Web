@@ -1,0 +1,92 @@
+.contenedor-lanzamientos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+    padding: 0.5rem * 2;
+
+
+    .contenedor1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid #000;
+        padding: 5px * 2;
+
+        .contenedor-lanzamientos__titulo {
+            text-align: center;
+            font-size: 0.8rem;
+            color: $color-amarillo;
+            font-weight: lighter;
+        }
+
+        .contenedor-lanzamientos__video {
+            width: 18rem;
+            margin-top: 1rem;
+            border-radius: 2%;
+        }
+
+        .contenedor-lanzamientos__descripcion {
+            margin-top: 1rem;
+            text-align: justify;
+            color: $color-amarillo;
+        }
+    }
+
+    .contenedor2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border-bottom: 1px solid #000;
+        padding: 5px * 2;
+
+        .contenedor-lanzamientos__titulo2 {
+            text-align: center;
+            font-size: 0.8rem;
+            color: $color-amarillo;
+            font-weight: lighter;
+        }
+
+        .contenedor-lanzamientos__video2 {
+            width: 18rem;
+            margin-top: 1rem;
+            border-radius: 2%;
+        }
+
+        .contenedor-lanzamientos__descripcion2 {
+            margin-top: 1rem;
+            text-align: justify;
+            color: $color-amarillo;
+        }
+    }
+
+    .contenedor3 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        padding: 5px * 2;
+
+        .contenedor-lanzamientos__titulo3 {
+            text-align: center;
+            font-size: 0.8rem;
+            color: $color-amarillo;
+            font-weight: lighter;
+        }
+
+        .contenedor-lanzamientos__video3 {
+            width: 18rem;
+            margin-top: 1rem;
+            border-radius: 2%;
+        }
+
+        .contenedor-lanzamientos__descripcion3 {
+            margin-top: 1rem;
+            text-align: justify;
+            color: $color-amarillo;
+        }
+    }
+}

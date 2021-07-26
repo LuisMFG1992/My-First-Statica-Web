@@ -1,0 +1,274 @@
+$color-verde-oscuro: #4F763A;
+$color-verde-transparente: rgba(46, 68, 31, 0.733);
+$color-verde-fondo: #78a566;
+$color-amarillo: rgb(233, 233, 3);
+$color-rojo: #f1331e;
+
+@mixin ancho ($width){
+    width: $width;    
+}
+
+@import "index";
+@import "contacto";
+@import "cronologia";
+@import "galeria";
+@import "lanzamientos";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+}
+
+@font-face {
+    font-family: helya-serif;
+    src: url(../Fonts/Hylia-Serif.ttf);
+}
+
+//
+
+
+/* =============================
+        ESTILOS GENERALES
+================================ */
+
+/* ------- NAV BOOTSTRAP ---------*/
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    border: 1px solid rgba(0,0,0,0) !important;
+}
+
+.bg-green {
+    background-color: $color-verde-transparente;
+}
+
+.navbar-brand {
+    color: $color-amarillo !important;
+    font-family: helya-serif;
+}
+
+.nav-link {
+    font-family: helya-serif;
+    color: $color-amarillo !important;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    opacity: 0.5;
+}
+
+/* --------- FOOTER --------- */
+
+.footer {
+    background: $color-verde-transparente;
+    color: $color-amarillo;
+    border: 1px solid $color-amarillo;
+    text-align: center;
+    width: 100%;
+    font-size: 0.7rem;
+    height: 1.6rem;
+
+    &__texto {
+        padding-top: 0.2rem;
+        color: $color-amarillo;
+    }
+}
+
+
+
+/* ===============================
+            MEDIA QUERYS
+    ============================== */
+
+@media (min-width: 768px) {
+    
+    /* ESTILOS GENERALES */
+    
+    .header {
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background: $color-verde-transparente;
+    }
+    
+    .nav {
+        width: 70%;
+        height: 3.5rem;
+        background-color: rgba(0, 0, 0, 0);
+        padding-top: 0.8rem;
+    }
+    
+    .footer {
+        font-size: .9rem;
+    }
+    
+    /* INDEX */
+    
+    .index-marco__titulo {
+        font-size: 1.5rem;
+    }
+    
+    /* GALERIA */
+
+    .container__galeria {
+        grid-template-columns: 1fr 1fr 1fr;
+
+        .container__encabezado {
+            grid-column-start: 1;
+            grid-column-end: -1;
+        }
+    }
+
+    .imagen-linea {
+        width: 200px;
+    }
+
+    /* CRONOLOGIA */
+   
+    .nota {
+        margin-top: 0;
+        font-size: 1.5rem;
+    }
+
+    .momento h3 {
+        font-size: 2rem;
+    }
+
+    /*LANZAMIENTOS*/
+
+    .contenedor-lanzamientos {
+
+        .contenedor1 {
+
+            .contenedor-lanzamientos__titulo {
+                font-size: 1.5rem;
+            }
+    
+            .contenedor-lanzamientos__video {
+                width: 70%;
+            }
+        }
+
+        .contenedor2 {
+
+            .contenedor-lanzamientos__titulo2 {
+                font-size: 1.5rem;
+            }
+    
+            .contenedor-lanzamientos__video2 {
+                width: 70%;
+            }
+        }
+
+        .contenedor3 {
+
+            .contenedor-lanzamientos__titulo3 {
+                font-size: 1.5rem;
+            }
+    
+            .contenedor-lanzamientos__video3 {
+                width: 70%;
+            }
+        }
+    }
+
+    /* CONTACTO */
+
+    .formulario {
+        top: 15%;
+        left: 35%;
+        width: 300px;
+    }
+
+    .formulario__li .formulario__boton {
+        width: 12rem;
+    }
+
+}
+
+@media (min-width: 992px) {
+    
+    /* ESTILOS GENERALES */
+    
+    .nav {
+        max-width: 700px;
+    }
+
+    /* INDEX */ 
+
+    .index-marco__parrafo {
+        font-size: 1rem;
+        text-align: justify;
+    }
+    /* GALERIA */
+
+    .container__galeria {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    /* CONTACTO */
+    
+    .formulario {
+        top: 15%;
+        left: 40%;
+    }
+
+    /*LANZAMIENTOS*/
+
+    .contenedor-lanzamientos {
+
+        .contenedor1 {
+
+            .contenedor-lanzamientos__titulo {
+                font-size: 1.5rem;
+            }
+    
+            .contenedor-lanzamientos__video {
+                max-width: 37rem;
+            }
+
+            .contenedor-lanzamientos____descripcion {
+                max-width: 60rem;
+            }   
+        }
+
+        .contenedor2 {
+
+            .contenedor-lanzamientos__titulo2 {
+                font-size: 1.5rem;
+            }
+    
+            .contenedor-lanzamientos__video2 {
+                max-width: 37rem;
+            }
+
+            .contenedor-lanzamientos____descripcion2 {
+                max-width: 60rem;
+            }   
+        }
+        .contenedor3 {
+
+            .contenedor-lanzamientos__titulo3 {
+                font-size: 1.5rem;
+            }
+    
+            .contenedor-lanzamientos__video3 {
+                max-width: 37rem;
+            }
+
+            .contenedor-lanzamientos____descripcion3 {
+                max-width: 60rem;
+            }   
+    
+        }
+    }
+}

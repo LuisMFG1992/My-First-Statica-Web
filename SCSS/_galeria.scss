@@ -1,27 +1,39 @@
 .galeria {
-    background: url(../Media/contacto-bg.jpg);
+    background: url(../Media/galeria-bg.jpg);
     background-size: cover;
     background-position: center;
+    height: 134vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
-.container__galeria {
-    border: 1px solid $color-amarillo;
-    font-size: 0.7rem;
-    margin-top: 10rem;
+.container__encabezado {
+    //background: $color-verde-transparente;
+    //color: $color-amarillo;
+    font-family: helya-serif;
+    //height: 50px;
+    margin-bottom: 0;
+    padding: 2rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
     background: $color-verde-oscuro;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-gap: 10px;
+    color: $color-amarillo;
+}
 
-    .container__encabezado {
-        background: $color-verde-transparente;
-        color: $color-amarillo;
-        height: 50px;
-        font-size: 1.5rem;
-        border-bottom: 3px solid $color-amarillo;
-    }
+.container__galeria {
+    font-size: 0.7rem;
+    padding-top: 2rem;
+    width: 100%;
+    //background: $color-verde-oscuro;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 3fr;
+    grid-gap: 10px; 
+    background: #4f763a79;
     
     .center {
         display: flex;
@@ -32,6 +44,9 @@
     .container__imagen {
         transition: all 0.5s ease;    
         cursor: pointer;
+        border-radius: 1rem;
+        width: 10rem;
+
     }
     
     .container__imagen:hover {

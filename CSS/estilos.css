@@ -12,9 +12,12 @@
 .index .contenedor-index {
   display: flex;
   justify-content: center;
+  padding: 3rem 0;
+  width: 100%;
 }
 .index .contenedor-index .contenedor-index__img {
   width: 70%;
+  max-width: 400px;
 }
 .index-marco, .index-marco2 {
   width: 80%;
@@ -221,6 +224,12 @@
   border-bottom: 10px solid transparent;
   border-right: 12px solid #fff;
   border-left: none;
+}
+
+.galeria {
+  background: url(../Media/contacto-bg.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 .container__galeria {
@@ -477,6 +486,10 @@
   }
 
   /* INDEX */
+  .contenedor-index {
+    margin-top: 5rem;
+  }
+
   .index-marco__parrafo, .index-marco2 .index-marco__parrafo2 {
     font-size: 1rem;
     text-align: justify;

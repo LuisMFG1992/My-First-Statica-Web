@@ -12,9 +12,13 @@
     .contenedor-index{
         display: flex;
         justify-content: center;
+        padding: 3rem 0;
+        //background: blue;
+        width: 100%;
         
         .contenedor-index__img {
             width: 70%;
+            max-width: 400px
         }
     }
 
@@ -43,7 +47,7 @@
             line-height: 1.2rem;
             
             .span-index2 {
-                font-weight: bold
+                font-weight: bold;
             }
         }
     }

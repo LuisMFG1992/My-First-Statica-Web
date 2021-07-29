@@ -75,6 +75,7 @@ $color-rojo: #f1331e;
     width: 100%;
     font-size: 0.7rem;
     height: 1.6rem;
+    font-family: helya-serif;
 
     &__texto {
         padding-top: 0.2rem;
@@ -153,6 +154,7 @@ $color-rojo: #f1331e;
 
     /*LANZAMIENTOS*/
 
+
     .contenedor-lanzamientos {
 
         .contenedor1 {
@@ -194,11 +196,6 @@ $color-rojo: #f1331e;
     .formulario {
         top: 15%;
         left: 35%;
-        width: 300px;
-    }
-
-    .formulario__li .formulario__boton {
-        width: 12rem;
     }
 
 }

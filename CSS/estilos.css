@@ -141,11 +141,13 @@
   background-image: url(../Media/cronologia-bg.jpg);
   background-size: cover;
   background-position: center;
-  height: 110vh;
+  height: 100vh;
 }
 
 .titulo {
   margin-top: 0 !important;
+  font-family: helya-serif;
+  color: #e9e903;
 }
 
 .imagen-linea {
@@ -200,7 +202,7 @@
   margin: 10px 0px;
   font-size: 1.5rem;
   text-align: center;
-  color: #f1331e;
+  color: #e9e903;
   text-shadow: #000 2px 2px 2px;
 }
 
@@ -288,7 +290,7 @@
 }
 
 .fondo-lanzamientos {
-  height: 209vh;
+  height: 200vh;
   background: #155869;
 }
 
@@ -323,6 +325,7 @@
   margin-top: 1rem;
   text-align: justify;
   color: #e9e903;
+  font-size: 0.8rem;
 }
 .contenedor-lanzamientos .contenedor2 {
   display: flex;
@@ -349,6 +352,7 @@
   margin-top: 1rem;
   text-align: justify;
   color: #e9e903;
+  font-size: 0.8rem;
 }
 .contenedor-lanzamientos .contenedor3 {
   display: flex;
@@ -373,6 +377,7 @@
   margin-top: 1rem;
   text-align: justify;
   color: #e9e903;
+  font-size: 0.8rem;
 }
 
 * {
@@ -465,30 +470,35 @@
 
   /* GALERIA */
   .galeria {
-    height: 130vh;
+    height: 128vh;
   }
 
   .container__galeria {
     grid-template-columns: 1fr 1fr;
+    grid-gap: 3rem;
   }
   .container__galeria .container__encabezado {
     grid-column-start: 1;
     grid-column-end: -1;
   }
   .container__galeria .container__imagen {
-    width: 20rem;
+    width: 18rem;
   }
 
+  /* CRONOLOGIA */
   .imagen-linea {
     width: 200px;
   }
 
-  /* CRONOLOGIA */
   .nota {
     margin-top: 0;
   }
 
   /*LANZAMIENTOS*/
+  .fondo-lanzamientos {
+    height: 180vh;
+  }
+
   .contenedor-lanzamientos .contenedor1 .contenedor-lanzamientos__titulo {
     font-size: 1.5rem;
   }
@@ -532,14 +542,15 @@
 
   /* GALERIA */
   .galeria {
-    height: 88vh;
+    height: 98vh;
   }
 
   .container__galeria {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
   }
   .container__galeria .container__imagen {
-    width: 19rem;
+    width: 24rem;
   }
 
   /* CONTACTO */
@@ -549,6 +560,10 @@
   }
 
   /*LANZAMIENTOS*/
+  .fondo-lanzamientos {
+    height: 170vh;
+  }
+
   .contenedor-lanzamientos .contenedor1 .contenedor-lanzamientos__titulo {
     font-size: 1.5rem;
   }

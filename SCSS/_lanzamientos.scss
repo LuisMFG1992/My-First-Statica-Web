@@ -1,8 +1,6 @@
 .fondo-lanzamientos {
-    height: 209vh;
+    height: 200vh;
     background: #155869;
-
-
 }
 
 .contenedor-lanzamientos {
@@ -41,6 +39,7 @@
             margin-top: 1rem;
             text-align: justify;
             color: $color-amarillo;
+            font-size: 0.8rem;
         }
     }
 
@@ -73,6 +72,7 @@
             margin-top: 1rem;
             text-align: justify;
             color: $color-amarillo;
+            font-size: 0.8rem;
         }
     }
 
@@ -103,6 +103,7 @@
             margin-top: 1rem;
             text-align: justify;
             color: $color-amarillo;
+            font-size: 0.8rem;
         }
     }
 }

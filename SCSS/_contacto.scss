@@ -7,105 +7,105 @@
     background-image: url(../Media/zelda_minimal.jpg);
     background-position: center;
     background-size: cover;
-}
-
-.formulario {
-    background-color: #8BB72E;
-    box-shadow: 0px 2px 14px #000;
-    border-radius: 15px;
-    width: 80%;
-    max-width: 400px;
-    height: 500px;
+    
+    .formulario {
+        background-color: #8BB72E;
+        box-shadow: 0px 2px 14px #000;
+        border-radius: 15px;
+        width: 80%;
+        max-width: 400px;
+        height: 500px;
+        
+    
+        &__header {
+            padding: 20px 0px;
+            background-color: rgb(59, 90, 39);
+            text-align: center;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+    
+    
+            &-h2 {
+                font-weight: normal;
+                color: #fff;
+                font-size: 1rem;
+                font-family: helya-serif;
+            }
+        }
+    
+        &__ul {
+            padding: 0;
+        }
+    
+        &__li {
+            list-style: none;
+            padding: 10px;
+    
+    
+            .formulario__label {
+                display: block;
+                float: left;
+                font-size: 0.8rem;
+                width: 5rem;
+                padding-bottom: 2px;
+                color: rgb(59, 90, 39);
+                font-weight: normal;
+                text-transform: capitalize;
+                font-family: helya-serif;
+            }   
+    
+            .formulario__input {
+                padding: 3px 100px 3px 5px;
+                width: 100%;
+                display: inline-block;
+                border-radius: 10px;
+                border: 1px solid rgb(104, 104, 104);
+                letter-spacing: 0.07rem;
+                font-family: helya-serif;
+            }
+            
+            .formulario__input::placeholder {
+                font-size: 0.65rem;
+                font-family: helya-serif;
+            }
+    
+            .formulario__select {
+                border-radius: 15px;
+                font-family: helya-serif;
+            }
+    
+            .formulario__textarea {
+                padding: 10px;
+                width: 100%;
+                height: 50px;
+                border-radius: 15px;
+                font-family: helya-serif;
+            }
+            
+            .formulario__textarea::placeholder {
+                font-size: 0.8rem;
+            }
+    
+            .formulario__label-checkbox {
+                color: rgb(59, 90, 39);
+                font-size: 0.7rem;
+                font-family: helya-serif;
+            }
+            
+            .formulario__boton {
+                width: 49%;
+                border-radius: 10px;
+                font-size: 0.7rem;
+                font-family: helya-serif;
+            }
+        }
+    }
+    
+    
+    
+    
+    
+    
     
 
-    &__header {
-        padding: 20px 0px;
-        background-color: rgb(59, 90, 39);
-        text-align: center;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
-
-
-        &-h2 {
-            font-weight: normal;
-            color: #fff;
-            font-size: 1rem;
-            font-family: helya-serif;
-        }
-    }
-
-    &__ul {
-        padding: 0;
-    }
-
-    &__li {
-        list-style: none;
-        padding: 10px;
-
-
-        .formulario__label {
-            display: block;
-            float: left;
-            font-size: 0.8rem;
-            width: 5rem;
-            padding-bottom: 2px;
-            color: rgb(59, 90, 39);
-            font-weight: normal;
-            text-transform: capitalize;
-            font-family: helya-serif;
-        }   
-
-        .formulario__input {
-            padding: 3px 100px 3px 5px;
-            width: 100%;
-            display: inline-block;
-            border-radius: 10px;
-            border: 1px solid rgb(104, 104, 104);
-            letter-spacing: 0.07rem;
-            font-family: helya-serif;
-        }
-        
-        .formulario__input::placeholder {
-            font-size: 0.65rem;
-            font-family: helya-serif;
-        }
-
-        .formulario__select {
-            border-radius: 15px;
-            font-family: helya-serif;
-        }
-
-        .formulario__textarea {
-            padding: 10px;
-            width: 100%;
-            height: 50px;
-            border-radius: 15px;
-            font-family: helya-serif;
-        }
-        
-        .formulario__textarea::placeholder {
-            font-size: 0.8rem;
-        }
-
-        .formulario__label-checkbox {
-            color: rgb(59, 90, 39);
-            font-size: 0.7rem;
-            font-family: helya-serif;
-        }
-        
-        .formulario__boton {
-            width: 49%;
-            border-radius: 10px;
-            font-size: 0.7rem;
-            font-family: helya-serif;
-        }
-    }
-}
-
-
-
-
-
-
-
-
+}    

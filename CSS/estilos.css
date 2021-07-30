@@ -58,8 +58,7 @@
   background-position: center;
   background-size: cover;
 }
-
-.formulario {
+.contacto__marco .formulario {
   background-color: #8BB72E;
   box-shadow: 0px 2px 14px #000;
   border-radius: 15px;
@@ -67,27 +66,27 @@
   max-width: 400px;
   height: 500px;
 }
-.formulario__header {
+.contacto__marco .formulario__header {
   padding: 20px 0px;
   background-color: #3b5a27;
   text-align: center;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
-.formulario__header-h2 {
+.contacto__marco .formulario__header-h2 {
   font-weight: normal;
   color: #fff;
   font-size: 1rem;
   font-family: helya-serif;
 }
-.formulario__ul {
+.contacto__marco .formulario__ul {
   padding: 0;
 }
-.formulario__li {
+.contacto__marco .formulario__li {
   list-style: none;
   padding: 10px;
 }
-.formulario__li .formulario__label {
+.contacto__marco .formulario__li .formulario__label {
   display: block;
   float: left;
   font-size: 0.8rem;
@@ -98,7 +97,7 @@
   text-transform: capitalize;
   font-family: helya-serif;
 }
-.formulario__li .formulario__input {
+.contacto__marco .formulario__li .formulario__input {
   padding: 3px 100px 3px 5px;
   width: 100%;
   display: inline-block;
@@ -107,30 +106,30 @@
   letter-spacing: 0.07rem;
   font-family: helya-serif;
 }
-.formulario__li .formulario__input::placeholder {
+.contacto__marco .formulario__li .formulario__input::placeholder {
   font-size: 0.65rem;
   font-family: helya-serif;
 }
-.formulario__li .formulario__select {
+.contacto__marco .formulario__li .formulario__select {
   border-radius: 15px;
   font-family: helya-serif;
 }
-.formulario__li .formulario__textarea {
+.contacto__marco .formulario__li .formulario__textarea {
   padding: 10px;
   width: 100%;
   height: 50px;
   border-radius: 15px;
   font-family: helya-serif;
 }
-.formulario__li .formulario__textarea::placeholder {
+.contacto__marco .formulario__li .formulario__textarea::placeholder {
   font-size: 0.8rem;
 }
-.formulario__li .formulario__label-checkbox {
+.contacto__marco .formulario__li .formulario__label-checkbox {
   color: #3b5a27;
   font-size: 0.7rem;
   font-family: helya-serif;
 }
-.formulario__li .formulario__boton {
+.contacto__marco .formulario__li .formulario__boton {
   width: 49%;
   border-radius: 10px;
   font-size: 0.7rem;
@@ -245,7 +244,7 @@
   background: url(../Media/galeria-bg.jpg);
   background-size: cover;
   background-position: center;
-  height: 134vh;
+  height: 137vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -293,15 +292,14 @@
   height: 200vh;
   background: #155869;
 }
-
-.contenedor-lanzamientos {
+.fondo-lanzamientos .contenedor-lanzamientos {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   padding: 1rem;
 }
-.contenedor-lanzamientos .contenedor1 {
+.fondo-lanzamientos .contenedor-lanzamientos .contenedor1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -309,25 +307,25 @@
   border-bottom: 1px solid #000;
   padding: 10px;
 }
-.contenedor-lanzamientos .contenedor1 .contenedor-lanzamientos__titulo {
+.fondo-lanzamientos .contenedor-lanzamientos .contenedor1 .contenedor-lanzamientos__titulo {
   text-align: center;
   font-size: 0.8rem;
   color: #e9e903;
   font-weight: lighter;
   font-family: helya-serif;
 }
-.contenedor-lanzamientos .contenedor1 .contenedor-lanzamientos__video {
+.fondo-lanzamientos .contenedor-lanzamientos .contenedor1 .contenedor-lanzamientos__video {
   width: 18rem;
   margin-top: 1rem;
   border-radius: 2%;
 }
-.contenedor-lanzamientos .contenedor1 .contenedor-lanzamientos__descripcion {
+.fondo-lanzamientos .contenedor-lanzamientos .contenedor1 .contenedor-lanzamientos__descripcion {
   margin-top: 1rem;
   text-align: justify;
   color: #e9e903;
   font-size: 0.8rem;
 }
-.contenedor-lanzamientos .contenedor2 {
+.fondo-lanzamientos .contenedor-lanzamientos .contenedor2 {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -335,45 +333,45 @@
   border-bottom: 1px solid #000;
   padding: 10px;
 }
-.contenedor-lanzamientos .contenedor2 .contenedor-lanzamientos__titulo2 {
+.fondo-lanzamientos .contenedor-lanzamientos .contenedor2 .contenedor-lanzamientos__titulo2 {
   text-align: center;
   font-size: 0.8rem;
   color: #e9e903;
   font-weight: lighter;
   font-family: helya-serif;
 }
-.contenedor-lanzamientos .contenedor2 .contenedor-lanzamientos__video2 {
+.fondo-lanzamientos .contenedor-lanzamientos .contenedor2 .contenedor-lanzamientos__video2 {
   width: 18rem;
   margin-top: 1rem;
   border-radius: 2%;
   font-family: helya-serif;
 }
-.contenedor-lanzamientos .contenedor2 .contenedor-lanzamientos__descripcion2 {
+.fondo-lanzamientos .contenedor-lanzamientos .contenedor2 .contenedor-lanzamientos__descripcion2 {
   margin-top: 1rem;
   text-align: justify;
   color: #e9e903;
   font-size: 0.8rem;
 }
-.contenedor-lanzamientos .contenedor3 {
+.fondo-lanzamientos .contenedor-lanzamientos .contenedor3 {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   padding: 10px;
 }
-.contenedor-lanzamientos .contenedor3 .contenedor-lanzamientos__titulo3 {
+.fondo-lanzamientos .contenedor-lanzamientos .contenedor3 .contenedor-lanzamientos__titulo3 {
   text-align: center;
   font-size: 0.8rem;
   color: #e9e903;
   font-weight: lighter;
   font-family: helya-serif;
 }
-.contenedor-lanzamientos .contenedor3 .contenedor-lanzamientos__video3 {
+.fondo-lanzamientos .contenedor-lanzamientos .contenedor3 .contenedor-lanzamientos__video3 {
   width: 18rem;
   margin-top: 1rem;
   border-radius: 2%;
 }
-.contenedor-lanzamientos .contenedor3 .contenedor-lanzamientos__descripcion3 {
+.fondo-lanzamientos .contenedor-lanzamientos .contenedor3 .contenedor-lanzamientos__descripcion3 {
   margin-top: 1rem;
   text-align: justify;
   color: #e9e903;
@@ -470,7 +468,7 @@
 
   /* GALERIA */
   .galeria {
-    height: 128vh;
+    height: 130vh;
   }
 
   .container__galeria {
@@ -542,15 +540,15 @@
 
   /* GALERIA */
   .galeria {
-    height: 98vh;
+    height: 105vh;
   }
 
   .container__galeria {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4rem;
   }
   .container__galeria .container__imagen {
-    width: 24rem;
+    width: 19rem;
   }
 
   /* CONTACTO */
@@ -562,34 +560,6 @@
   /*LANZAMIENTOS*/
   .fondo-lanzamientos {
     height: 170vh;
-  }
-
-  .contenedor-lanzamientos .contenedor1 .contenedor-lanzamientos__titulo {
-    font-size: 1.5rem;
-  }
-  .contenedor-lanzamientos .contenedor1 .contenedor-lanzamientos__video {
-    max-width: 37rem;
-  }
-  .contenedor-lanzamientos .contenedor1 .contenedor-lanzamientos____descripcion {
-    max-width: 60rem;
-  }
-  .contenedor-lanzamientos .contenedor2 .contenedor-lanzamientos__titulo2 {
-    font-size: 1.5rem;
-  }
-  .contenedor-lanzamientos .contenedor2 .contenedor-lanzamientos__video2 {
-    max-width: 37rem;
-  }
-  .contenedor-lanzamientos .contenedor2 .contenedor-lanzamientos____descripcion2 {
-    max-width: 60rem;
-  }
-  .contenedor-lanzamientos .contenedor3 .contenedor-lanzamientos__titulo3 {
-    font-size: 1.5rem;
-  }
-  .contenedor-lanzamientos .contenedor3 .contenedor-lanzamientos__video3 {
-    max-width: 37rem;
-  }
-  .contenedor-lanzamientos .contenedor3 .contenedor-lanzamientos____descripcion3 {
-    max-width: 60rem;
   }
 }
 
